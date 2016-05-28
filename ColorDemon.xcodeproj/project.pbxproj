@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03541B981CF956D800FAAF13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03541B971CF956D800FAAF13 /* main.m */; };
+		03541B9B1CF956D800FAAF13 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03541B9A1CF956D800FAAF13 /* AppDelegate.m */; };
+		03541B9E1CF956D800FAAF13 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03541B9D1CF956D800FAAF13 /* ViewController.m */; };
+		03541BA11CF956D800FAAF13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03541B9F1CF956D800FAAF13 /* Main.storyboard */; };
+		03541BA31CF956D800FAAF13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03541BA21CF956D800FAAF13 /* Assets.xcassets */; };
+		03541BA61CF956D800FAAF13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03541BA41CF956D800FAAF13 /* LaunchScreen.storyboard */; };
+		03541BB11CF956D800FAAF13 /* ColorDemonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03541BB01CF956D800FAAF13 /* ColorDemonTests.m */; };
+		03541BBC1CF956D800FAAF13 /* ColorDemonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03541BBB1CF956D800FAAF13 /* ColorDemonUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03541BAD1CF956D800FAAF13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03541B8B1CF956D800FAAF13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03541B921CF956D800FAAF13;
+			remoteInfo = ColorDemon;
+		};
+		03541BB81CF956D800FAAF13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03541B8B1CF956D800FAAF13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03541B921CF956D800FAAF13;
+			remoteInfo = ColorDemon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03541B931CF956D800FAAF13 /* ColorDemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorDemon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03541B971CF956D800FAAF13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03541B991CF956D800FAAF13 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		03541B9A1CF956D800FAAF13 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		03541B9C1CF956D800FAAF13 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		03541B9D1CF956D800FAAF13 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		03541BA01CF956D800FAAF13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03541BA21CF956D800FAAF13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03541BA51CF956D800FAAF13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03541BA71CF956D800FAAF13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03541BAC1CF956D800FAAF13 /* ColorDemonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorDemonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03541BB01CF956D800FAAF13 /* ColorDemonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorDemonTests.m; sourceTree = "<group>"; };
+		03541BB21CF956D800FAAF13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03541BB71CF956D800FAAF13 /* ColorDemonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorDemonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03541BBB1CF956D800FAAF13 /* ColorDemonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorDemonUITests.m; sourceTree = "<group>"; };
+		03541BBD1CF956D800FAAF13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03541B901CF956D800FAAF13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03541BA91CF956D800FAAF13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03541BB41CF956D800FAAF13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03541B8A1CF956D800FAAF13 = {
+			isa = PBXGroup;
+			children = (
+				03541B951CF956D800FAAF13 /* ColorDemon */,
+				03541BAF1CF956D800FAAF13 /* ColorDemonTests */,
+				03541BBA1CF956D800FAAF13 /* ColorDemonUITests */,
+				03541B941CF956D800FAAF13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03541B941CF956D800FAAF13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03541B931CF956D800FAAF13 /* ColorDemon.app */,
+				03541BAC1CF956D800FAAF13 /* ColorDemonTests.xctest */,
+				03541BB71CF956D800FAAF13 /* ColorDemonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03541B951CF956D800FAAF13 /* ColorDemon */ = {
+			isa = PBXGroup;
+			children = (
+				03541B991CF956D800FAAF13 /* AppDelegate.h */,
+				03541B9A1CF956D800FAAF13 /* AppDelegate.m */,
+				03541B9C1CF956D800FAAF13 /* ViewController.h */,
+				03541B9D1CF956D800FAAF13 /* ViewController.m */,
+				03541B9F1CF956D800FAAF13 /* Main.storyboard */,
+				03541BA21CF956D800FAAF13 /* Assets.xcassets */,
+				03541BA41CF956D800FAAF13 /* LaunchScreen.storyboard */,
+				03541BA71CF956D800FAAF13 /* Info.plist */,
+				03541B961CF956D800FAAF13 /* Supporting Files */,
+			);
+			path = ColorDemon;
+			sourceTree = "<group>";
+		};
+		03541B961CF956D800FAAF13 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03541B971CF956D800FAAF13 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03541BAF1CF956D800FAAF13 /* ColorDemonTests */ = {
+			isa = PBXGroup;
+			children = (
+				03541BB01CF956D800FAAF13 /* ColorDemonTests.m */,
+				03541BB21CF956D800FAAF13 /* Info.plist */,
+			);
+			path = ColorDemonTests;
+			sourceTree = "<group>";
+		};
+		03541BBA1CF956D800FAAF13 /* ColorDemonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03541BBB1CF956D800FAAF13 /* ColorDemonUITests.m */,
+				03541BBD1CF956D800FAAF13 /* Info.plist */,
+			);
+			path = ColorDemonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03541B921CF956D800FAAF13 /* ColorDemon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03541BC01CF956D800FAAF13 /* Build configuration list for PBXNativeTarget "ColorDemon" */;
+			buildPhases = (
+				03541B8F1CF956D800FAAF13 /* Sources */,
+				03541B901CF956D800FAAF13 /* Frameworks */,
+				03541B911CF956D800FAAF13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorDemon;
+			productName = ColorDemon;
+			productReference = 03541B931CF956D800FAAF13 /* ColorDemon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03541BAB1CF956D800FAAF13 /* ColorDemonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03541BC31CF956D800FAAF13 /* Build configuration list for PBXNativeTarget "ColorDemonTests" */;
+			buildPhases = (
+				03541BA81CF956D800FAAF13 /* Sources */,
+				03541BA91CF956D800FAAF13 /* Frameworks */,
+				03541BAA1CF956D800FAAF13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03541BAE1CF956D800FAAF13 /* PBXTargetDependency */,
+			);
+			name = ColorDemonTests;
+			productName = ColorDemonTests;
+			productReference = 03541BAC1CF956D800FAAF13 /* ColorDemonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03541BB61CF956D800FAAF13 /* ColorDemonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03541BC61CF956D800FAAF13 /* Build configuration list for PBXNativeTarget "ColorDemonUITests" */;
+			buildPhases = (
+				03541BB31CF956D800FAAF13 /* Sources */,
+				03541BB41CF956D800FAAF13 /* Frameworks */,
+				03541BB51CF956D800FAAF13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03541BB91CF956D800FAAF13 /* PBXTargetDependency */,
+			);
+			name = ColorDemonUITests;
+			productName = ColorDemonUITests;
+			productReference = 03541BB71CF956D800FAAF13 /* ColorDemonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03541B8B1CF956D800FAAF13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = SevenCelsius;
+				TargetAttributes = {
+					03541B921CF956D800FAAF13 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = AJ4YA27V26;
+					};
+					03541BAB1CF956D800FAAF13 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = AJ4YA27V26;
+						TestTargetID = 03541B921CF956D800FAAF13;
+					};
+					03541BB61CF956D800FAAF13 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = AJ4YA27V26;
+						TestTargetID = 03541B921CF956D800FAAF13;
+					};
+				};
+			};
+			buildConfigurationList = 03541B8E1CF956D800FAAF13 /* Build configuration list for PBXProject "ColorDemon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03541B8A1CF956D800FAAF13;
+			productRefGroup = 03541B941CF956D800FAAF13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03541B921CF956D800FAAF13 /* ColorDemon */,
+				03541BAB1CF956D800FAAF13 /* ColorDemonTests */,
+				03541BB61CF956D800FAAF13 /* ColorDemonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03541B911CF956D800FAAF13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03541BA61CF956D800FAAF13 /* LaunchScreen.storyboard in Resources */,
+				03541BA31CF956D800FAAF13 /* Assets.xcassets in Resources */,
+				03541BA11CF956D800FAAF13 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03541BAA1CF956D800FAAF13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03541BB51CF956D800FAAF13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03541B8F1CF956D800FAAF13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03541B9E1CF956D800FAAF13 /* ViewController.m in Sources */,
+				03541B9B1CF956D800FAAF13 /* AppDelegate.m in Sources */,
+				03541B981CF956D800FAAF13 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03541BA81CF956D800FAAF13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03541BB11CF956D800FAAF13 /* ColorDemonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03541BB31CF956D800FAAF13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03541BBC1CF956D800FAAF13 /* ColorDemonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03541BAE1CF956D800FAAF13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03541B921CF956D800FAAF13 /* ColorDemon */;
+			targetProxy = 03541BAD1CF956D800FAAF13 /* PBXContainerItemProxy */;
+		};
+		03541BB91CF956D800FAAF13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03541B921CF956D800FAAF13 /* ColorDemon */;
+			targetProxy = 03541BB81CF956D800FAAF13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03541B9F1CF956D800FAAF13 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03541BA01CF956D800FAAF13 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03541BA41CF956D800FAAF13 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03541BA51CF956D800FAAF13 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03541BBE1CF956D800FAAF13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		03541BBF1CF956D800FAAF13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03541BC11CF956D800FAAF13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ColorDemon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sevencelsius.ColorDemon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		03541BC21CF956D800FAAF13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ColorDemon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sevencelsius.ColorDemon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		03541BC41CF956D800FAAF13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ColorDemonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sevencelsius.ColorDemonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorDemon.app/ColorDemon";
+			};
+			name = Debug;
+		};
+		03541BC51CF956D800FAAF13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ColorDemonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sevencelsius.ColorDemonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorDemon.app/ColorDemon";
+			};
+			name = Release;
+		};
+		03541BC71CF956D800FAAF13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ColorDemonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sevencelsius.ColorDemonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ColorDemon;
+			};
+			name = Debug;
+		};
+		03541BC81CF956D800FAAF13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ColorDemonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sevencelsius.ColorDemonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ColorDemon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03541B8E1CF956D800FAAF13 /* Build configuration list for PBXProject "ColorDemon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03541BBE1CF956D800FAAF13 /* Debug */,
+				03541BBF1CF956D800FAAF13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03541BC01CF956D800FAAF13 /* Build configuration list for PBXNativeTarget "ColorDemon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03541BC11CF956D800FAAF13 /* Debug */,
+				03541BC21CF956D800FAAF13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03541BC31CF956D800FAAF13 /* Build configuration list for PBXNativeTarget "ColorDemonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03541BC41CF956D800FAAF13 /* Debug */,
+				03541BC51CF956D800FAAF13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03541BC61CF956D800FAAF13 /* Build configuration list for PBXNativeTarget "ColorDemonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03541BC71CF956D800FAAF13 /* Debug */,
+				03541BC81CF956D800FAAF13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03541B8B1CF956D800FAAF13 /* Project object */;
+}
